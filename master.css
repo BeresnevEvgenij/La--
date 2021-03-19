@@ -25,9 +25,8 @@ h2{
 p{
   padding: 0;
   margin: 0;
-  text-indent: 20px;
-}
-span{
+  text-align: center;
+  justify-content: center;
 }
 /* ----header---- */
 .header{
