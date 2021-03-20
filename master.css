@@ -3,6 +3,7 @@ body{
   font-family: "PT Sans",Arial,sans-serif;
   width: 1200px;
   margin: 0 auto;
+  background-color: #e6e6e6;
 }
 a{
   display: flex;
@@ -61,12 +62,13 @@ p{
 
 }
 .name{
-  height:  30px;
+  padding: 8px;
   font-weight: 600;
   line-height: 20px;
   font-size: 15px;
   border-radius: 5px;
   text-transform: uppercase;
+  text-align: center;
   color: #004b93;
   background-color: #9cf0e7;
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
@@ -84,7 +86,7 @@ p{
 
 }
 .img{
-  margin: 5px;
+  margin: 3px;
   width: 15px;
   height: 15px;
 }
@@ -92,7 +94,7 @@ p{
 /* ----content---- */
 .content{
   display: block;
-  padding-top: 50px;
+  padding-top: 40px;
   width: 1200px;
   border-radius: 50px 50px 0px 0px;
   margin: 0 auto;
@@ -125,7 +127,7 @@ p{
 }
 .foto{
   padding: 0 11px;
-  border-radius: 5px;
+  border-radius: 50px;
   width: 220px;
   height: 207px;
   justify-content: center;
@@ -149,7 +151,7 @@ p{
 
 /* ----drink---- */
 .drink_foto{
-
+  border-radius: 5px;
   padding: 0 11px;
   border-radius: 5px;
   width: 120px;
