@@ -184,7 +184,7 @@ p{
 }
 
 /* ----media---- */
-@media (max-width: 1000px) {
+@media (max-width: 1250px) {
   .body{
     width: 795px;
     margin: 0 auto;
@@ -213,5 +213,63 @@ p{
   .logo{
     border-bottom: 5px solid #004b93;
 
+  }
+}
+@media (max-width: 500px) {
+
+  .body{
+    width: 375px;
+    margin: 0 auto;
+  }
+  .header{
+    width: 375px;
+    background-color: #e6e6e6;;
+    box-shadow: none;
+  }
+  .nav{
+    display: flex;
+  }
+  .img-header{
+    display: block;
+    transform: translate(-180px, 0%);
+    width: 600px;
+  }
+  .name{
+    font-size: 12px;
+  }
+  .content{
+    padding-top: 0;
+    width: 375px;
+  }
+  .Shaverma_blok{
+    width: 100%;
+
+  }
+  .text_bot{
+    padding: 5px;
+    width: 375px;;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .menu-2{
+    font-size: 15px;
+    width: 375px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .logo{
+    display: none;
+  }
+  .img{
+    display: none;
+  }
+  .foto{
+    margin-left: 80px;
+  }
+  li{
+    font-size: 10px;
+  }
+  a{
+    font-size: 12px;
   }
 }
